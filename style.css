@@ -140,6 +140,7 @@ h1 {
   font-size: 5.6875rem;
   font-weight: normal;
   line-height: 0.9;
+  max-width: 800px;
 }
 
 h2 {
@@ -209,6 +210,12 @@ ul li {
 
 .main__content {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main__content img{
+  flex: none;
 }
 
 
